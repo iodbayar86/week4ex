@@ -1,3 +1,65 @@
 body{
-  background-color: tomato;
+	text-align: center;
+  
 }
+
+.box{
+	display: inline-block;
+	width: 25%;
+	height: 100px;
+
+}
+
+.red {
+	background-color: red;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.green{
+	background-color: green;
+}
+
+h1{
+	font-size: 35px;
+	color: white;
+}
+
+.container{
+	height: 200px;
+	width: 200px;
+	font-size: 20px;
+	background-color: purple;
+	color: white;
+	animation-duration: 10s;
+	margin: 0 auto;
+}
+
+
+
+}
+
+@media(max-width: 600px){
+	div.yellow,
+	div.green{
+		display: none;
+
+	}
+
+	.box{
+		width: 50%;
+	}
+}
+
+@media(min-width: 1000px){
+	.box{
+		width: 100%;
+	}
+}
+	
